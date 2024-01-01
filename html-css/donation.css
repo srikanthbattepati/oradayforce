@@ -1,0 +1,241 @@
+body {
+    font: Helvetica;
+  }
+  
+  .main-title{
+    text-align: center;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+  }
+  
+  .title{
+    text-align: left;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .main {
+    background: transparent url('./donation_images/component.png') 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    background-size:cover; 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 7rem 10rem 7rem 10rem;
+    height: auto;
+  
+  }
+  
+  .container{
+    margin-top: 20px;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+  }
+  
+  
+  .field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 1rem;
+  
+  }
+  
+  .field label {
+    text-align: left;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .field input {
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: left;
+    font: normal normal 300 20px/32px Helvetica;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    opacity: 0.2;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .text{
+    text-align: left;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .link{
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 16px/56px Helvetica;
+    letter-spacing: -0.16px;
+    color: #C1F7D5;
+    opacity: 1;
+    }
+  
+  .button {
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+  }
+  
+  .button button {
+    border: none;
+    border-radius: 20px;
+    background-color: #c1f7d5;
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer a{
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    opacity: 1;
+    }
+  footer li{
+    text-decoration: none;
+    list-style-type: none;  
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  footer span {
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+  }
+  
+  footer{
+    padding: 4rem;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .quote{
+    text-align: left;
+    font: normal normal normal 72px/76px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  
+  }
+  
+  @media (max-width: 1024px) and (orientation: landscape) {
+    body{
+      width: fit-content;
+    }
+    .main {
+      padding: 4rem 8rem;
+      flex-direction: column;
+      width: fit-content;
+    }
+    .container{
+      width:fit-content;
+    }
+    .field {
+      padding: 0.5rem;
+    }
+    .text {
+      font-size: 24px;
+    }
+    .button button {
+      font-size: 18px;
+    }
+    form{
+      width: fit-content;
+    }
+  }
+  
+  @media (max-width: 768px)  {
+    .quote{
+      font: normal normal normal 32px/46px Flood Std;
+    }
+    body{
+      width: fit-content;
+    }
+    .main {
+      padding: 0.5rem;
+      flex-direction: column;
+      width: fit-content;
+      width: 30rem;
+      height: auto;
+      margin-bottom: 3rem;
+    }
+    header .main-title{
+      align-items: center;
+      font: normal normal normal 32px/46px Flood Std;
+      opacity: 1;
+    }
+    .container{
+      width: 312px;
+      height: 816px;
+    }
+    .container.title{
+      font: normal normal bold 22px/28px Helvetica;
+    }
+    .field {
+      width: fit-content;
+    }
+    .field .label{
+      font: normal normal normal 11px/13px Helvetica;
+    }
+    .field input{
+      font: normal normal 300 16px/24px Helvetica;
+    }
+    .field .flex{
+      flex-direction: column;
+    }
+    .text {
+      font-size: 20px;
+    }
+    .button button {
+      font-size: 16px;
+    }
+   
+    form{
+      width: fit-content;
+    }
+    /* .flex{
+      display: grid;
+      grid-template-rows: 1rf 1rf;
+      grid-template-columns: 1rf 1rf;
+    } */
+  
+  }

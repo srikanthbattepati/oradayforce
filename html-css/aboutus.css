@@ -1,0 +1,331 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navbar-left {
+    flex: 1;
+    text-wrap: wrap;
+    text-decoration: none;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    padding-left: 10rem;
+    opacity: 1;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 10rem;
+    margin-right: 5rem;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+}
+
+.navbar-button button {
+    background-color: #C1F7D5;
+    border: none;
+    border-radius:3rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 2rem;
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.issue{
+    background: transparent url('./aboutus_images/annie-spratt-427339-unsplash.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: auto    ;
+    background-size: cover ;   
+    z-index: 2;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.issue>p{
+    text-align: left;
+    font: normal normal normal 72px/76px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.box-1{
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+}
+.box-2{
+    text-align: left;
+    font: normal normal bold 28px/36px Helvetica;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    padding: 2rem;
+    border: 1px solid;
+    width: 416px;
+    height: auto;
+   
+}
+
+.container{
+    height: auto;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;  
+    
+}
+
+.container .box{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 10rem;
+    height: 2.5rem;
+    border: 1px solid;
+    padding: 0.5rem;
+}
+
+.card-2 p {
+    text-align: left;
+    font: normal normal bold 44px/56px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.card-3{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%; 
+    gap: 4%;    
+}
+
+.card-3 h2{
+    text-align: left;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.card-3 p{
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.container-2{
+    padding: 2rem;
+    padding-left: 9rem;
+    padding-right: 7rem;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 20rem;
+
+}
+
+.flex h3{
+    text-align: left;
+    font: normal normal bold 44px/56px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.flex p{
+    
+    text-align: left;
+    font: normal normal 300 20px/30px Helvetica;
+    letter-spacing: -0.4px;
+    color: #354463;
+    opacity: 1;
+}
+
+.container-2 .box{
+    margin-top: 0;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 45%;
+    padding: 1rem;
+    align-items: end;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container-3{
+    background: transparent url('./aboutus_images/impact_background.png') 0% 0% no-repeat padding-box;
+    opacity:1 ;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    height: auto;
+}
+
+.box-3{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 10rem;
+    height: 2.5rem;
+    margin-left: 45rem;
+    border: 1px solid;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+.container-3>p{
+    text-align: center;
+    font: normal normal bold 44px/56px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.flex-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-3 h2{
+    text-align: center;
+    font: normal normal normal 72px/76px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.flex-3 p{
+    text-align: center;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.container-4{
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: auto;
+    padding:10rem;
+    padding-top: 2rem !important;
+}
+
+.container-4 > h2{
+    text-align: left;
+    font: normal normal normal 72px/76px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF; 
+    opacity: 1;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+
+.card-container{
+    align-items: center;
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-right:50px;
+    margin-bottom: 40px;
+    height: auto;
+}
+ .card-4{
+    background-color: #ffff;
+    font: normal normal bold 2rem Helvetica;
+    color: #354463;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    display: flex;
+    border: 2px solid;
+    flex-direction: column;
+    text-align: start;
+    width: 19rem;
+
+}
+.card-4 h3{
+    padding-left: 1rem;
+    text-align: left;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.card-4 p{
+    padding: 1rem;
+    line-break: loose;
+    text-align: left;
+    font: normal normal 300 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    opacity: 1;
+}
+
+.button{
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    height:3rem;
+    width:8rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font: normal normal bold 18px/22px Helvetica;
+    color: #354463;
+    opacity: 1;
+}
+
+
+footer a{
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    opacity: 1;
+    }
+footer li{
+    text-decoration: none;
+    list-style-type: none;  
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+    text-align: left;
+}
+
+footer span {
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+footer{
+    padding: 4rem;
+}
